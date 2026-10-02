@@ -98,3 +98,12 @@ fun TataletakRowColumn(modifier: Modifier) {
         }
     }
 }
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    // Pastikan Anda memiliki file gambar dengan nama yang sesuai di folder res/drawable
+    val gambar = painterResource(id = R.drawable.notasinaton)
+
+    Column {
+
+    }
+}
