@@ -29,6 +29,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(modifier = Modifier.height(45.dp))
+            // Teks "Login" diperbesar
+            Text(
+                text = "Login",
+                fontSize = 42.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
 
         }
 
