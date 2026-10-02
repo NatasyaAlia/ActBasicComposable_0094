@@ -57,6 +57,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Red
             )
             Text(
+                text = "Nur Natasya Alia",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+            Text(
                 text = "20240140094",
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold,
