@@ -112,5 +112,9 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         ) {
             // Isi box kuning
         }
+
+        Column {
+
+        }
     }
 }
