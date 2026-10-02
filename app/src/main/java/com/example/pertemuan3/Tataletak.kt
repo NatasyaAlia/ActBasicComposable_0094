@@ -100,6 +100,7 @@ fun TataletakRowColumn(modifier: Modifier) {
 }
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
+    // Pastikan Anda memiliki file gambar dengan nama yang sesuai di folder res/drawable
     val gambar = painterResource(id = R.drawable.notasinaton)
 
     Column {
@@ -141,7 +142,19 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 .background(color = Color.Cyan),
             contentAlignment = Alignment.Center
         ) {
-
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
+            Text(
+                text = "My",
+                fontSize = 50.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(alignment = Alignment.Center)
+            )
         }
     }
 }
