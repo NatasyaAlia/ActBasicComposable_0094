@@ -62,6 +62,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+            Spacer(modifier = Modifier.height(40.dp))
+            // Gambar Mobil Bulat Penuh diperbesar secara signifikan (menjadi 300.dp)
+            Image(
+                painter = painterResource(id = R.drawable.gambar),
+                contentDescription = "Gambar Mobil",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(300.dp)
+                    .clip(CircleShape)
+            )
         }
 
     }
