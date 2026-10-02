@@ -24,6 +24,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+        // Kontainer Utama
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+        }
 
     }
 
